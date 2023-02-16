@@ -17,6 +17,14 @@
 
 function middleNode($head)
 {
+  // If we call the middleNode function with this linked list as its argument, it will first traverse the linked list and store each node in an array. After the traversal, the array will contain the following nodes:
+
+  // csharp
+  // Copy code
+  // [1, 2, 3, 4, 5]
+  // The length of the array is 5, so the middle node is the one at index 2, which is the node with value 3. This node is then returned as the result of the function.
+  
+  // To test the function, we can create a test case with the linked list 1 -> 2 -> 3 -> 4 -> 5 and check that the result of calling the function is the node with value 3. Here's an example test case:
     $array = [];
     $length = 0;
     while ($head != null) {
