@@ -32,7 +32,7 @@ $nums = [3,2,2,3];
 $val = 3;
 $expectedResult = 2;
 $actualResult = removeElement($nums, $val);
-
+print_r($resultSize);
 if($actualResult === $expectedResult){
   echo "Test passed";
 } else {
