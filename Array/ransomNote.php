@@ -51,4 +51,7 @@ echo "Test case 4: " . (!$result ? "Pass" : "Fail") . "\n"; // expected output: 
 // If all characters in the $ransomNote string can be constructed from the $magazine string, the function returns true.
 // For example, if the $ransomNote string is "aabbcc" and the $magazine string is "aabbbbccc", the function will return true because there are enough occurrences of each character in the $magazine string to construct the $ransomNote string.
 
+
+mkdir('other/bar', recursive: true);
+
 ?>
